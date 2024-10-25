@@ -46,8 +46,8 @@ buildings.forEach(building => {
 function initValine(path) {
     new Valine({
         el: '#vcomment',
-        appId: 'YOU ID',
-        appKey: 'YOU KEY',
+        appId: 'Ws1wUdZsjYj6ZRIKPJfgxtTX-gzGzoHsz',
+        appKey: 'FanUseMEr9H6O9NU4UhutAld',
         placeholder: '留下你的评论...',
         path: path || window.location.pathname
     });

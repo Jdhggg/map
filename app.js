@@ -15,7 +15,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.get('/', (req, res) => {
     res.render('index', {
         title: '东软通 - 校园地图与评论',
-        amapKey: 'YOU KEY' // 请替换为您的实际高德地图 API 密钥
+        amapKey: '6f4a47cb8b40ededf1751f651a69b7e3' // 请替换为您的实际高德地图 API 密钥
     });
 });
 
