@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/styles.css">
+    <!-- 高德地图 API -->
+    <script src="https://webapi.amap.com/maps?v=1.4.15&key=<%= amapKey %>" async defer></script>
+    <!-- Valine 评论系统 -->
+    <script src="https://unpkg.com/valine/dist/Valine.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>东软通 - 校园地图与评论</h1>
+
+        <!-- 地图区域 -->
+        <div id="map"></div>
+
+        <!-- 评论区域 -->
+        <div id="comments">
+            <h2 id="comment-title">评论系统</h2>
+            <div id="vcomment"></div> <!-- Valine 评论区域 -->
+        </div>
+    </div>
+
+    <script src="/script.js"></script> <!-- 页面交互逻辑 -->
+</body>
+</html>
